@@ -77,10 +77,8 @@ TSet TSet::operator+(const TSet &s) // объединение
 
 TSet TSet::operator+(const int Elem) // объединение с элементом
 {
-	if (Elem > BitField.GetLength())
-	{
-		throw 'E>L';
-	}
+	
+
 	TSet temp(BitField);
 	temp.InsElem(Elem);
 	return temp;
